@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RSR</string>
+    <string name="main_menu_title">RSR Revalidatieservice</string>
+    <string name="info">info</string>
+    <string name="rsr_pechhulp">RSR Pechhulp</string>
+    <string name="privacy_title">Privacybeleid</string>
+    <string name="privacy_message">Om deze app te gebruiken, dient u het <a href="https://www.rsr.nl/index.php?page=privacy-wetgeving">privacybeleid</a> te accepteren.</string>
+    <string name="privacy_confirm">Bevestig</string>
+    <string name="splash_logo">Splash logo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_info_title">Uw Locatie:</string>
+    <string name="map_info_snippet">Onthoud deze locatie voor het \n telefoongesprek.</string>
+    <string name="maps_button">Bel RSR nu</string>
+    <string name="contact_dialog_title">Belkosten</string>
+    <string name="contact_dialog_snippet">Voor dit nummer betaalt u uw \n gebruikelijke belkosten.</string>
+    <string name="contact_dialog_button_string">Bel nu</string>
+    <string name="cancel">Annuleren</string>
+    <string name="gps_title">GPS uitgeschakeld</string>
+    <string name="gps_message">Uw GPS is uitgeschakeld. Schakel het alstublieft in om door te gaan.</string>
+    <string name="turn_on">Aanzetten</string>
+    <string name="network_title">Netwerk is uitgeschakeld</string>
+    <string name="network_message">Uw netwerk is uitgeschakeld. Chakel het alstublieft in om door te gaan.</string>
+</resources>

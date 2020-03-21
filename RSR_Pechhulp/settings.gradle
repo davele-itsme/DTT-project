@@ -1,0 +1,2 @@
+rootProject.name='RSR_Pechhulp'
+include ':app'
