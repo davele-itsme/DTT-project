@@ -1,90 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<layout>
 
-    <View
-        android:id="@+id/bg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/main_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_toolbar_layout"
-        app:layout_constraintVertical_bias="1.0" />
+    <data>
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/main_toolbar_layout"
+        <variable
+            name="presenter"
+            type="nl.dtt.rsr_pechhulp.presenter.home.MainPresenter" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent"
+        tools:context=".view.home.MainActivity">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/main_toolbar"
+        <View
+            android:id="@+id/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_toolbar_layout"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/main_toolbar_layout"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
-            style="@style/AppStyle"
-            app:titleTextAppearance="@style/Toolbar"/>
-
-        <View android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/border_button"
-            />
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:id="@+id/main_menu_linear_layout"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <Button
-            android:id="@+id/main_btn"
-            style="@style/AppStyle"
-            android:layout_width="270dp"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/main_btn_warning"
-            android:drawablePadding="-20dp"
-            android:paddingStart="20dp"
-            android:paddingEnd="0dp"
-            android:text="@string/rsr_pechhulp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <View
-            android:layout_width="270dp"
-            android:layout_height="2dp"
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                style="@style/AppStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height"
+                app:titleTextAppearance="@style/Toolbar" />
+            <!--Styling small border -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/border_height"
+                android:background="@color/border_button" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:id="@+id/main_menu_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/border_button" />
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-        <Button
-            android:id="@+id/info_btn"
-            style="@style/AppStyle"
-            android:layout_width="270dp"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/main_i"
-            android:drawablePadding="-20dp"
-            android:paddingStart="20dp"
-            android:paddingEnd="0dp"
-            android:text="@string/privacy_title" />
+            <Button
+                android:id="@+id/main_btn"
+                style="@style/AppStyleButton"
+                android:layout_width="@dimen/app_button_and_border_width"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/main_btn_warning"
+                android:onClick="@{presenter::handleMainBtnClick}"
+                android:text="@string/rsr_pechhulp" />
+            <!--Styling small border -->
+            <View
+                android:layout_width="@dimen/app_button_and_border_width"
+                android:layout_height="@dimen/border_height"
+                android:layout_marginBottom="10dp"
+                android:background="@color/border_button" />
 
-        <View
-            android:id="@+id/view"
-            android:layout_width="270dp"
-            android:layout_height="2dp"
-            android:background="@color/border_button" />
+            <Button
+                android:id="@+id/info_btn"
+                style="@style/AppStyleButton"
+                android:layout_width="@dimen/app_button_and_border_width"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/main_i"
+                android:onClick="@{presenter::handleInfoBtnClick}"
+                android:text="@string/privacy_title" />
+            <!--Styling small border -->
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/app_button_and_border_width"
+                android:layout_height="@dimen/border_height"
+                android:background="@color/border_button" />
 
-    </LinearLayout>
+        </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

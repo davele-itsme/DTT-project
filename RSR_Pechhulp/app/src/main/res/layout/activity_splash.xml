@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.common.SplashActivity">
 
     <ImageView
         android:id="@+id/splash_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_marginBottom="80dp"
+        android:layout_weight="1"
         android:contentDescription="@string/splash_logo"
         app:srcCompat="@drawable/splash_logo" />
 

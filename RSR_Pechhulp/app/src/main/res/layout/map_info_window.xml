@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Layout that will be displayed as information window above the marker-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
@@ -7,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:ignore="Overdraw">
-
+    <!--Styling title for information window -->
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
+    <!--Styling snippet for information window including the address -->
     <TextView
         android:id="@+id/textSnippet"
         android:layout_width="match_parent"

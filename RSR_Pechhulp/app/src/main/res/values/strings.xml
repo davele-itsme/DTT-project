@@ -20,4 +20,7 @@
     <string name="turn_on">Aanzetten</string>
     <string name="network_title">Netwerk is uitgeschakeld</string>
     <string name="network_message">Uw netwerk is uitgeschakeld. Chakel het alstublieft in om door te gaan.</string>
+    <string name="contact_dialog_tablet_title">Neem contact op met RSR Nederland</string>
+    <string name="phone_number">+31900 77 88 99 0</string>
+    <string name="contact_dialog_tablet_snippet">Voor dit nummer betaalt u uw gebruikelijke belkosten.</string>
 </resources>

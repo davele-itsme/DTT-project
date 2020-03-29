@@ -32,4 +32,10 @@
         <item name="android:textSize">13sp</item>
     </style>
 
+    <style name="AppStyleButton" parent="@style/AppStyle">
+        <item name="android:drawablePadding">-20dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
 </resources>
