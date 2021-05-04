@@ -1,6 +1,6 @@
 # Android Application - RSR Pechhulp copy
 The purpose of the Android project was to make a copy of https://play.google.com/store/apps/details?id=com.rsr.android as part of hiring mockup test for https://www.d-tt.nl/.
-![3](https://user-images.githubusercontent.com/42817904/116996726-28124280-acdc-11eb-8ba5-e536b1b6f859.jpg =250x250)
+<img src="https://user-images.githubusercontent.com/42817904/116996726-28124280-acdc-11eb-8ba5-e536b1b6f859.jpg" width="100" height="100">
 
 ## Content
 The code is located in DTT-project/app/src/main.
