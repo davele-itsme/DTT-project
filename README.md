@@ -67,7 +67,7 @@ The application is not deployed, therefore it is necessary to run the applicatio
 
 1. Clone the repository:
 ```
-$ gh repo clone davele-itsme/DTT-project
+git clone https://github.com/davele-itsme/DTT-project.git
 ```
 2. Open the project in Android Studio
 3. The application uses Google Maps Android API. Follow: [Google Maps](https://developers.google.com/maps/documentation/android-sdk/start) to set up the API key.
