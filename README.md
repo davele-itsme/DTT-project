@@ -16,8 +16,8 @@ The application uses Google Maps Android API.
 Follow: https://developers.google.com/maps/documentation/android-sdk/start to set up the API key.
 Once you have API key, put it inside res/values/google_maps_api.xml files.
 
+### javax/xml/bind/JAXBException
 
-## javax/xml/bind/JAXBException
 If you receive this exception:
 Go to File -> Project Structure (Shortcut: Ctrl+Alt+Shift+S)
 
