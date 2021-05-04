@@ -1,5 +1,7 @@
 # Android Application - RSR Pechhulp copy
-The purpose of the Android project was to make a copy of https://play.google.com/store/apps/details?id=com.rsr.android as part of hiring mockup test for https://www.d-tt.nl/.
+The purpose of the Android project was to make a copy of 
+
+https://play.google.com/store/apps/details?id=com.rsr.android as part of hiring mockup test for https://www.d-tt.nl/.
 <br/>
 <img src="https://user-images.githubusercontent.com/42817904/116996726-28124280-acdc-11eb-8ba5-e536b1b6f859.jpg"  height="800">
 
@@ -11,12 +13,15 @@ The application was built using MVP architecture. The application supports diffe
 ## Installation
 Clone this repository and import into Android Studio
 
-gh repo clone davele-itsme/DTT-project
+```
+$ gh repo clone davele-itsme/DTT-project
+```
+
 
 ## Configuration
 The application uses Google Maps Android API.
 Follow: https://developers.google.com/maps/documentation/android-sdk/start to set up the API key.
-Once you have API key, put it inside res/values/google_maps_api.xml files.
+Once you have API key, put it inside  `res/values/google_maps_api.xml` files.
 
 ### javax/xml/bind/JAXBException
 
