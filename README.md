@@ -31,7 +31,7 @@
         <li>
       <a href="#side-notes">Side Notes</a>
       <ul>
-        <li><a href="#javax/xml/bind/JAXBException">javax/xml/bind/JAXBException</a></li>
+        <li><a href="#exception">Exception</a></li>
         <li><a href="#Generating-signed-APK">Generating signed APK</a></li>
       </ul>
     </li>
@@ -77,9 +77,9 @@ $ gh repo clone davele-itsme/DTT-project
 <!-- SIDE NOTES -->
 ## Side Notes
 
-### javax/xml/bind/JAXBException
+### Exception
 
-If you receive this exception:
+If you receive this exception "javax/xml/bind/JAXBException"
 Go to File -> Project Structure (Shortcut: Ctrl+Alt+Shift+S)
 
 Navigate to SDK Location
