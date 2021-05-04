@@ -17,11 +17,19 @@ Clone this repository and import into Android Studio
 $ gh repo clone davele-itsme/DTT-project
 ```
 
-
 ## Configuration
 The application uses Google Maps Android API.
 Follow: https://developers.google.com/maps/documentation/android-sdk/start to set up the API key.
 Once you have API key, put it inside  `res/values/google_maps_api.xml` file.
+
+### Generating signed APK
+From Android Studio:
+
+### Build menu
+Generate Signed APK...
+Fill in the keystore information (you only need to do this once manually and then let Android Studio remember it)
+
+## Side notes
 
 ### javax/xml/bind/JAXBException
 
@@ -32,9 +40,7 @@ Navigate to SDK Location
 
 From the JDK location dropdown, choose Embedded JDK
 
-### Generating signed APK
-From Android Studio:
+### Android version of device
 
-### Build menu
-Generate Signed APK...
-Fill in the keystore information (you only need to do this once manually and then let Android Studio remember it)
+Either use a mobile phone/tablet or virtual device provided by AVD manager with Android version 5.0 Lollipop - 9.0 Pie.
+Other versions of Android might not be compatible due to some deprecations.
