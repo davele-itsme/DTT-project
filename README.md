@@ -50,14 +50,15 @@ Android application made for [DTT](https://www.d-tt.nl/).
 
 ### Built With
 
-* [AndroidStudio](https://developer.android.com/studio)
-* Android version 5.0 Lollipop - 9.0 Pie
-(Other versions of Android might not be compatible due to some deprecations)
+* [AndroidStudio](https://developer.android.com/studio) -  - official IDE for Google's Android operating system
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 The application is not deployed, therefore it is necessary to run the application by cloning the project and building it.
+
+Runs on Android version 6.0 Marshmallow - 9.0 Pie
+(Other versions of Android might not be compatible due to some deprecations)
 
 ### Prerequisites
 
