@@ -5,6 +5,7 @@ The purpose of the Android project was to make a copy of https://play.google.com
 
 ## Content
 The code is located in DTT-project/app/src/main.
+The application was built using MVP architecture. The application supports different version for displaying on tablet and a different version on mobile phone.
 
 ## Installation
 Clone this repository and import into Android Studio
