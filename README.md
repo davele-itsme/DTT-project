@@ -1,6 +1,9 @@
 # Android Application - RSR Pechhulp copy
 The purpose of the Android project was to make a copy of https://play.google.com/store/apps/details?id=com.rsr.android as part of hiring mockup test for https://www.d-tt.nl/.
 
+## Content
+The code is located in DTT-project/app/src/main.
+
 ## Installation
 Clone this repository and import into Android Studio
 
