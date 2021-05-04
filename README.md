@@ -21,7 +21,7 @@ $ gh repo clone davele-itsme/DTT-project
 ## Configuration
 The application uses Google Maps Android API.
 Follow: https://developers.google.com/maps/documentation/android-sdk/start to set up the API key.
-Once you have API key, put it inside  `res/values/google_maps_api.xml` files.
+Once you have API key, put it inside  `res/values/google_maps_api.xml` file.
 
 ### javax/xml/bind/JAXBException
 
