@@ -52,7 +52,7 @@ Android application made for [DTT](https://www.d-tt.nl/).
 
 ### Built With
 
-* [AndroidStudio](https://developer.android.com/studio) -  - official IDE for Google's Android operating system
+* [AndroidStudio](https://developer.android.com/studio) - official IDE for Google's Android operating system
 
 <!-- GETTING STARTED -->
 ## Getting Started
