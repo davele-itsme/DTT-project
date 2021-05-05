@@ -4,7 +4,7 @@
     <a href="https://play.google.com/store/apps/details?id=com.rsr.android">
     <img src="https://user-images.githubusercontent.com/42817904/116996726-28124280-acdc-11eb-8ba5-e536b1b6f859.jpg"  height="600">
     </a>
-  <h2 align="center">RSR Peschhulp Copy</h2>
+  <h2 align="center">RSR PESCHHULP COPY</h2>
   <p align="center">
     Android application, which was build as part of hiring mockup test.
     <br />
